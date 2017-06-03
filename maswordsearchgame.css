@@ -1,0 +1,23 @@
+/* css for small screens (320px) */
+
+.maswsearchscr {
+	font-size: 6px;
+}
+
+@media ( (screen) and (device-width > 540) ) {
+	.maswsearchscr {
+		font-size: 10px;
+	}
+}
+
+@media ( (screen) and (device-width > 640) ) {
+	.maswsearchsrc {
+		font-size: 18px;
+	}
+}
+
+@media ( (screen) and (device-width > 1024) ) {
+	.maswsearchsrc {
+		font-size: 32px;
+	}
+}
